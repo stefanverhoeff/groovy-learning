@@ -14,6 +14,8 @@ Department dep2
 
 // NPE:
 //println dep2.boss.name
+
+// Safe!
 println dep2?.boss?.name
 
 // Spaceship
