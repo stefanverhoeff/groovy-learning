@@ -10,7 +10,7 @@ class Manager {
 Department dep = new Department(boss: new Manager(name: "Mr Burns"))
 println dep.boss.name
 
-Department dep2
+Department dep2 = new Department()
 
 // NPE:
 //println dep2.boss.name
